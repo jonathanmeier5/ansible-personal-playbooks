@@ -1,3 +1,5 @@
 - hosts: dev-generic
   roles:
     - geerlingguy.docker
+  vars:
+    docker_compose_version: "1.23.2"
